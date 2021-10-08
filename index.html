@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=Copyright Sulav Poudel">
+</head>
+<body>
+    <div class="all">
+        <div class="QRcode">
+            <img id="image" src="https://chart.googleapis.com/chart?cht=qr&chs=250x250&chl=Copyright Sulav Poudel" alt="">
+        </div>
+        <div id="inputText">
+            <input onchange="main()" type="text" id="text" placeholder="Write your data or link">
+        </div>
+        <button onclick="main()" id="go">Get QR Code</button>
+        
+        <h1>Made By Sulav Poudel</h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
